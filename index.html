@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     template = template.replace(/\s+integrity="[^"]*"/gi, '').replace(/\s+crossorigin="[^"]*"/gi, '');
 
     const workplaceRuleAnchor = '<li>Always be visible at the front counter';
-    const firstShiftRule = '<li><strong>First Shift Rule:</strong> Before the second shift arrives, restock all spoons and cups, make every flavor that fits in the tanks, fill the vanilla and chocolate tanks, and leave the store spotless. The second shift must arrive to a store that is fully ready for work—with nothing left for them to finish.</li>\n        ';
+    const firstShiftRule = '<li><strong>First Shift Rule:</strong> Before the second shift arrives, restock all spoons and cups, make every flavor that fits in the tanks, fill the vanilla and chocolate tanks, wring out all rags, and leave the store spotless. The second shift must arrive to a store that is fully ready for work—with nothing left for them to finish.</li>\n        ';
     template = template.replace(workplaceRuleAnchor, firstShiftRule + workplaceRuleAnchor);
 
     const resourceScript = '<script>window.__resources = ' +
